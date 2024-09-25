@@ -15,10 +15,24 @@
     --fonte-titulos:'Times New Roman, Verdana, Helvetica, san-serif';
      
 }
-/*background-image: linear-gradient(to bottom, var(--cor02), var(--rosachoque));*/
+/*
 html, body {
     background-color: var(--cor1); 
+}*/
+
+html, body {
+   background-color: var(--cor1);
+   margin: 0; /* Remove margens */
+   padding: 0; /* Remove preenchimento */
+   height: 100%; /* Define altura de 100% */
+  /* overflow: hidden; /* Oculta barras de rolagem */
 }
+/*
+.container {
+   width: 100vw; /* 100% da largura da janela de visualização 
+   height: 100vh; /* 100% da altura da janela de visualização 
+   background-color: #f0f0f0; /* Exemplo de cor de fundo 
+}*/
 
 header {
     display: flex;
@@ -130,8 +144,6 @@ h1 {
    text-decoration: none;
  }
 
-
-
 #sobre_nos {
    display: block;
 }
@@ -233,7 +245,7 @@ h1 {
 section  {
    background-color: var(--cinzaclaro);
    background-size: auto;
-   background-position: center top;
+   background-position: center;
    background-repeat: no-repeat;
    font-family: var(--fonte-destaque);
    font-size: 2vw;
@@ -242,7 +254,7 @@ section  {
    padding-top: 5px;
    padding-bottom: 10px;
    padding-left: 20px;
-   background-attachment: fixed;
+   /*background-attachment: fixed;*/
 }
 
 section#dunuts {
@@ -378,7 +390,7 @@ section#zeroacucar {
 section#veganos {
    background-color: var(--cor2);
    background-position: center;
-   padding-bottom: 280px;
+   /*padding-bottom: 80px;*/
 }
 
 /* Estilo para telas maiores (notebook e PC) */
