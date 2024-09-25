@@ -1,0 +1,409 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor1:#de98b2;
+    --cor2:#ea6d99;
+    --cor3:#f2588d;
+    --cor4:#f94381;
+    --cor7:#ff1490;
+    --turquesa: #00CED1;
+    --cinzaclaro:#F5F5F5;
+    --cinzaescuro:#2F4F4F;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-titulos:'Times New Roman, Verdana, Helvetica, san-serif';
+     
+}
+/*background-image: linear-gradient(to bottom, var(--cor02), var(--rosachoque));*/
+html, body {
+    background-color: var(--cor1); 
+}
+
+header {
+    display: flex;
+    margin-bottom: 20px;
+}
+header > img {
+    background-color: var(--cor1);
+    width: 110px;
+    height: 100px;
+}
+h1 {
+    background-color: var(--cor1);
+    margin: auto;
+    padding-left: auto;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    font-family: var(--fonte-titulo);
+}
+#links {
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+#links > a {
+    color: var(--cor7);
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    font-weight: bold ;
+    transition-duration: .5s;
+    text-align: justify;
+    padding: 5px;
+}
+#links > a:hover {
+    background-color: var(--cor3);
+    color: var(--cinzaclaro);
+}
+ main {
+    display: flex;
+}
+#apresenta > p {
+   
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor7));
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    box-shadow: 0px 1px 0px black;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+    font-size: 2vw;
+    font-family: var(--fonte-padrao);
+}
+
+#menu {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor7));
+    border-radius: 40px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 1px 0px black;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5vw;
+    color: white;
+    padding-top: 5px;
+    padding-left: 50px; 
+    text-align: left;   
+}
+
+#menu > h1 {
+   /*background-image: linear-gradient(to bottom, var(--cor1), var(--cor7));*/
+   background-color: var(--cor3);
+   border-radius: 200px;
+   margin: 5px;
+   font-family: var(--fonte-titulo);
+   font-size: 3vw;
+   padding-top: 0;
+   text-align: center;
+ }
+ #menu > h1 > a {
+   text-decoration: none;
+ }
+
+ .column {
+   width: 50%;
+   float: left;
+}
+
+ div.menu > a > img {
+   width: 50px;
+   height: 50px;
+   border-radius: 15px;
+   padding-left: 30px;
+   padding-right: 30px;
+
+ }
+
+ div.menu >a {
+   text-decoration: none;
+ }
+
+
+
+#sobre_nos {
+   display: block;
+}
+#sobre_nos > h1 {
+   margin-bottom: 0;
+   /*font-family: var(--fonte-padrao);*/
+   color: white;
+   background-color: var(--cor2);
+   border-top-left-radius: 60px;
+   border-top-right-radius: 60px;
+   text-indent: 30px;
+   padding: 30px;
+   text-align: justify;
+   font-family: var(--fonte-titulos);
+   font-size: 10vw;
+   color: white;
+   text-align: center;
+
+}
+#sobre_nos > p {
+   font-family: var(--fonte-titulo);
+   color: white;
+   margin-top: 0;
+   background-color: var(--cor3);
+   border-bottom-left-radius: 60px;
+   border-bottom-right-radius: 60px;
+   font-size: 3vw;
+   text-indent: 30px;
+   padding: 30px;
+   text-align: justify;
+}
+#encomendas{
+   background-color: var(--cor4);
+}
+#titulo {
+   display: block;
+   font-family: var(--fonte-titulo);
+   font-size: 10vw;
+   text-align: center;
+   color:white;
+}
+#contato1  {
+   display: flex;
+}
+#contato1 p {
+   font-family: var(--fonte-padrao);
+   font-size: 3vw;
+   color: white;
+   padding-left: 15px;
+
+}
+#contato1 img {
+   width: 90px;
+   height: 90px;
+
+}
+#contato2  {
+   display: flex;
+}
+#contato2 p {
+   font-family: var(--fonte-padrao);
+   font-size: 3vw;
+   color: white;
+   padding-left: 15px;
+
+}
+#contato2 img {
+   width: 90px;
+   height: 90px;
+
+}
+#contato3  {
+   display: flex;
+}
+#contato3 p {
+   font-family: var(--fonte-padrao);
+   font-size: 3vw;
+   color: white;
+   padding-left: 15px;
+
+}
+#contato3 img {
+   width: 90px;
+   height: 90px;
+
+}
+.fale_conosco {
+   text-align: center;
+}
+.volta2 {
+   width: 50px;
+   height: 50px;
+}
+
+#cardapio {
+   padding-bottom: 20px;
+}
+
+section  {
+   background-color: var(--cinzaclaro);
+   background-size: auto;
+   background-position: center top;
+   background-repeat: no-repeat;
+   font-family: var(--fonte-destaque);
+   font-size: 2vw;
+   color: white;
+   margin-top: 20px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   background-attachment: fixed;
+}
+
+section#dunuts {
+   background-color: var(--cor7);
+}
+
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#dunuts {
+     background-image: url('../imagens/dunuts.png');
+   }
+}
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#dunuts {
+     background-image: url('../imagens/dunuts_pequeno.png');
+   }
+}
+
+section#bolos {
+   background-color: var(--cor2);
+}
+
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#bolos {
+     background-image: url('../imagens/bolos.png');
+   }
+ }
+
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#bolos {
+     background-image: url('../imagens/bolos_pequeno.png');
+   }
+ }
+
+section#tortas {
+   background-color: var(--cor7);
+   /*background-image: url(../imagens/tortas.png);
+   
+   background-repeat: no-repeat;
+   background-position: center center;*/
+}
+
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#tortas {
+     background-image: url('../imagens/tortas.png');
+   }
+ }
+
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#tortas {
+     background-image: url('../imagens/tortas_pequena.png');
+   }
+ }
+
+section#brownies {
+     background-color: var(--cor3);
+}
+
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#brownies {
+     background-image: url('../imagens/brownies.png');
+   }
+ }
+
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#brownies {
+     background-image: url('../imagens/brownies_pequeno.png');
+   }
+ }
+
+section#zerolactose {
+   background-color: var(--cor7);
+   
+}
+
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#zerolactose {
+     background-image: url('../imagens/zero_lactose.png');
+   }
+ }
+
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#zerolactose {
+     background-image: url('../imagens/zero_lactose_pequeno.png');
+   }
+ }
+
+section#semglutem {
+   background-color: var(--cor4);
+
+}   
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#semglutem {
+     background-image: url('../imagens/s_glutem.png');
+   }
+ }
+
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#semglutem {
+     background-image: url('../imagens/s_glutem_pequeno.png');
+   }
+ }
+
+section#zeroacucar {
+   background-color: var(--cor7);
+}
+
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#zeroacucar {
+     background-image: url('../imagens/zero_acucar.png');
+   }
+ }
+
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#zeroacucar {
+     background-image: url('../imagens/zero_acucar_pequeno.png');
+   }
+ }
+
+section#veganos {
+   background-color: var(--cor2);
+   background-position: center;
+   padding-bottom: 280px;
+}
+
+/* Estilo para telas maiores (notebook e PC) */
+@media (min-width: 768px) {
+   section#veganos {
+     background-image: url('../imagens/veganos.png');
+   }
+ }
+
+ /* Estilo para telas menores (celular) */
+ @media (max-width: 767px) {
+   section#veganos {
+     background-image: url('../imagens/veganos_pequeno.png');
+   }
+ }
+
+footer {
+   background-image: linear-gradient(to bottom, var(--cor1), var(--cor7));
+   padding: 10px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   font-family: var(--fonte-padrao);
+   color: lightpink;
+   margin-top: 0px;
+   padding: 2
+}
